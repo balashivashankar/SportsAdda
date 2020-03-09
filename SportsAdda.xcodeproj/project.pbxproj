@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A723D9B241634480020EBC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A723D9A241634480020EBC0 /* AppDelegate.swift */; };
+		1A723D9D241634480020EBC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A723D9C241634480020EBC0 /* SceneDelegate.swift */; };
+		1A723D9F241634480020EBC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A723D9E241634480020EBC0 /* ViewController.swift */; };
+		1A723DA2241634480020EBC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A723DA0241634480020EBC0 /* Main.storyboard */; };
+		1A723DA5241634480020EBC0 /* SportsAdda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A723DA3241634480020EBC0 /* SportsAdda.xcdatamodeld */; };
+		1A723DA72416344E0020EBC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A723DA62416344E0020EBC0 /* Assets.xcassets */; };
+		1A723DAA2416344E0020EBC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A723DA82416344E0020EBC0 /* LaunchScreen.storyboard */; };
+		1A723DB52416344E0020EBC0 /* SportsAddaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A723DB42416344E0020EBC0 /* SportsAddaTests.swift */; };
+		1A723DC02416344E0020EBC0 /* SportsAddaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A723DBF2416344E0020EBC0 /* SportsAddaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A723DB12416344E0020EBC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A723D8F241634480020EBC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A723D96241634480020EBC0;
+			remoteInfo = SportsAdda;
+		};
+		1A723DBC2416344E0020EBC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A723D8F241634480020EBC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A723D96241634480020EBC0;
+			remoteInfo = SportsAdda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A723D97241634480020EBC0 /* SportsAdda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsAdda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A723D9A241634480020EBC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A723D9C241634480020EBC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1A723D9E241634480020EBC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A723DA1241634480020EBC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A723DA4241634480020EBC0 /* SportsAdda.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportsAdda.xcdatamodel; sourceTree = "<group>"; };
+		1A723DA62416344E0020EBC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A723DA92416344E0020EBC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A723DAB2416344E0020EBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A723DB02416344E0020EBC0 /* SportsAddaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsAddaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A723DB42416344E0020EBC0 /* SportsAddaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsAddaTests.swift; sourceTree = "<group>"; };
+		1A723DB62416344E0020EBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A723DBB2416344E0020EBC0 /* SportsAddaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsAddaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A723DBF2416344E0020EBC0 /* SportsAddaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsAddaUITests.swift; sourceTree = "<group>"; };
+		1A723DC12416344E0020EBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A723D94241634480020EBC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A723DAD2416344E0020EBC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A723DB82416344E0020EBC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A723D8E241634480020EBC0 = {
+			isa = PBXGroup;
+			children = (
+				1A723D99241634480020EBC0 /* SportsAdda */,
+				1A723DB32416344E0020EBC0 /* SportsAddaTests */,
+				1A723DBE2416344E0020EBC0 /* SportsAddaUITests */,
+				1A723D98241634480020EBC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A723D98241634480020EBC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A723D97241634480020EBC0 /* SportsAdda.app */,
+				1A723DB02416344E0020EBC0 /* SportsAddaTests.xctest */,
+				1A723DBB2416344E0020EBC0 /* SportsAddaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A723D99241634480020EBC0 /* SportsAdda */ = {
+			isa = PBXGroup;
+			children = (
+				1A723D9A241634480020EBC0 /* AppDelegate.swift */,
+				1A723D9C241634480020EBC0 /* SceneDelegate.swift */,
+				1A723D9E241634480020EBC0 /* ViewController.swift */,
+				1A723DA0241634480020EBC0 /* Main.storyboard */,
+				1A723DA62416344E0020EBC0 /* Assets.xcassets */,
+				1A723DA82416344E0020EBC0 /* LaunchScreen.storyboard */,
+				1A723DAB2416344E0020EBC0 /* Info.plist */,
+				1A723DA3241634480020EBC0 /* SportsAdda.xcdatamodeld */,
+			);
+			path = SportsAdda;
+			sourceTree = "<group>";
+		};
+		1A723DB32416344E0020EBC0 /* SportsAddaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A723DB42416344E0020EBC0 /* SportsAddaTests.swift */,
+				1A723DB62416344E0020EBC0 /* Info.plist */,
+			);
+			path = SportsAddaTests;
+			sourceTree = "<group>";
+		};
+		1A723DBE2416344E0020EBC0 /* SportsAddaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A723DBF2416344E0020EBC0 /* SportsAddaUITests.swift */,
+				1A723DC12416344E0020EBC0 /* Info.plist */,
+			);
+			path = SportsAddaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A723D96241634480020EBC0 /* SportsAdda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A723DC42416344E0020EBC0 /* Build configuration list for PBXNativeTarget "SportsAdda" */;
+			buildPhases = (
+				1A723D93241634480020EBC0 /* Sources */,
+				1A723D94241634480020EBC0 /* Frameworks */,
+				1A723D95241634480020EBC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportsAdda;
+			productName = SportsAdda;
+			productReference = 1A723D97241634480020EBC0 /* SportsAdda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A723DAF2416344E0020EBC0 /* SportsAddaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A723DC72416344E0020EBC0 /* Build configuration list for PBXNativeTarget "SportsAddaTests" */;
+			buildPhases = (
+				1A723DAC2416344E0020EBC0 /* Sources */,
+				1A723DAD2416344E0020EBC0 /* Frameworks */,
+				1A723DAE2416344E0020EBC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A723DB22416344E0020EBC0 /* PBXTargetDependency */,
+			);
+			name = SportsAddaTests;
+			productName = SportsAddaTests;
+			productReference = 1A723DB02416344E0020EBC0 /* SportsAddaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A723DBA2416344E0020EBC0 /* SportsAddaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A723DCA2416344E0020EBC0 /* Build configuration list for PBXNativeTarget "SportsAddaUITests" */;
+			buildPhases = (
+				1A723DB72416344E0020EBC0 /* Sources */,
+				1A723DB82416344E0020EBC0 /* Frameworks */,
+				1A723DB92416344E0020EBC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A723DBD2416344E0020EBC0 /* PBXTargetDependency */,
+			);
+			name = SportsAddaUITests;
+			productName = SportsAddaUITests;
+			productReference = 1A723DBB2416344E0020EBC0 /* SportsAddaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A723D8F241634480020EBC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = BalaShivaShankar;
+				TargetAttributes = {
+					1A723D96241634480020EBC0 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					1A723DAF2416344E0020EBC0 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 1A723D96241634480020EBC0;
+					};
+					1A723DBA2416344E0020EBC0 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 1A723D96241634480020EBC0;
+					};
+				};
+			};
+			buildConfigurationList = 1A723D92241634480020EBC0 /* Build configuration list for PBXProject "SportsAdda" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A723D8E241634480020EBC0;
+			productRefGroup = 1A723D98241634480020EBC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A723D96241634480020EBC0 /* SportsAdda */,
+				1A723DAF2416344E0020EBC0 /* SportsAddaTests */,
+				1A723DBA2416344E0020EBC0 /* SportsAddaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A723D95241634480020EBC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A723DAA2416344E0020EBC0 /* LaunchScreen.storyboard in Resources */,
+				1A723DA72416344E0020EBC0 /* Assets.xcassets in Resources */,
+				1A723DA2241634480020EBC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A723DAE2416344E0020EBC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A723DB92416344E0020EBC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A723D93241634480020EBC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A723DA5241634480020EBC0 /* SportsAdda.xcdatamodeld in Sources */,
+				1A723D9F241634480020EBC0 /* ViewController.swift in Sources */,
+				1A723D9B241634480020EBC0 /* AppDelegate.swift in Sources */,
+				1A723D9D241634480020EBC0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A723DAC2416344E0020EBC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A723DB52416344E0020EBC0 /* SportsAddaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A723DB72416344E0020EBC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A723DC02416344E0020EBC0 /* SportsAddaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A723DB22416344E0020EBC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A723D96241634480020EBC0 /* SportsAdda */;
+			targetProxy = 1A723DB12416344E0020EBC0 /* PBXContainerItemProxy */;
+		};
+		1A723DBD2416344E0020EBC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A723D96241634480020EBC0 /* SportsAdda */;
+			targetProxy = 1A723DBC2416344E0020EBC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A723DA0241634480020EBC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A723DA1241634480020EBC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A723DA82416344E0020EBC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A723DA92416344E0020EBC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A723DC22416344E0020EBC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A723DC32416344E0020EBC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A723DC52416344E0020EBC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3QT33FQ6X;
+				INFOPLIST_FILE = SportsAdda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Telugu.SportsAdda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A723DC62416344E0020EBC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3QT33FQ6X;
+				INFOPLIST_FILE = SportsAdda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Telugu.SportsAdda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A723DC82416344E0020EBC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3QT33FQ6X;
+				INFOPLIST_FILE = SportsAddaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Telugu.SportsAddaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsAdda.app/SportsAdda";
+			};
+			name = Debug;
+		};
+		1A723DC92416344E0020EBC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3QT33FQ6X;
+				INFOPLIST_FILE = SportsAddaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Telugu.SportsAddaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsAdda.app/SportsAdda";
+			};
+			name = Release;
+		};
+		1A723DCB2416344E0020EBC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3QT33FQ6X;
+				INFOPLIST_FILE = SportsAddaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Telugu.SportsAddaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SportsAdda;
+			};
+			name = Debug;
+		};
+		1A723DCC2416344E0020EBC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3QT33FQ6X;
+				INFOPLIST_FILE = SportsAddaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Telugu.SportsAddaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SportsAdda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A723D92241634480020EBC0 /* Build configuration list for PBXProject "SportsAdda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A723DC22416344E0020EBC0 /* Debug */,
+				1A723DC32416344E0020EBC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A723DC42416344E0020EBC0 /* Build configuration list for PBXNativeTarget "SportsAdda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A723DC52416344E0020EBC0 /* Debug */,
+				1A723DC62416344E0020EBC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A723DC72416344E0020EBC0 /* Build configuration list for PBXNativeTarget "SportsAddaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A723DC82416344E0020EBC0 /* Debug */,
+				1A723DC92416344E0020EBC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A723DCA2416344E0020EBC0 /* Build configuration list for PBXNativeTarget "SportsAddaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A723DCB2416344E0020EBC0 /* Debug */,
+				1A723DCC2416344E0020EBC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1A723DA3241634480020EBC0 /* SportsAdda.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A723DA4241634480020EBC0 /* SportsAdda.xcdatamodel */,
+			);
+			currentVersion = 1A723DA4241634480020EBC0 /* SportsAdda.xcdatamodel */;
+			path = SportsAdda.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1A723D8F241634480020EBC0 /* Project object */;
+}
