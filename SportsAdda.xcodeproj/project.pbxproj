@@ -3,19 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06C71C0E9D8BB311D089E1DD /* Pods_SportsAddaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16E93ED6FE0894D6226DA65 /* Pods_SportsAddaTests.framework */; };
 		1A723D9B241634480020EBC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A723D9A241634480020EBC0 /* AppDelegate.swift */; };
 		1A723D9D241634480020EBC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A723D9C241634480020EBC0 /* SceneDelegate.swift */; };
-		1A723D9F241634480020EBC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A723D9E241634480020EBC0 /* ViewController.swift */; };
 		1A723DA2241634480020EBC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A723DA0241634480020EBC0 /* Main.storyboard */; };
 		1A723DA5241634480020EBC0 /* SportsAdda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A723DA3241634480020EBC0 /* SportsAdda.xcdatamodeld */; };
 		1A723DA72416344E0020EBC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A723DA62416344E0020EBC0 /* Assets.xcassets */; };
 		1A723DAA2416344E0020EBC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A723DA82416344E0020EBC0 /* LaunchScreen.storyboard */; };
 		1A723DB52416344E0020EBC0 /* SportsAddaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A723DB42416344E0020EBC0 /* SportsAddaTests.swift */; };
 		1A723DC02416344E0020EBC0 /* SportsAddaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A723DBF2416344E0020EBC0 /* SportsAddaUITests.swift */; };
+		1A723DD1241636080020EBC0 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A723DD0241636080020EBC0 /* LogInViewController.swift */; };
+		1A723DD324163C230020EBC0 /* ToStoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A723DD224163C230020EBC0 /* ToStoreData.swift */; };
+		1A723DD7241647DE0020EBC0 /* ActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A723DD6241647DE0020EBC0 /* ActivityTableViewController.swift */; };
+		1A723DD9241648920020EBC0 /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A723DD8241648920020EBC0 /* ActivityTableViewCell.swift */; };
+		7389332BEF5BAC1BE2ADC585 /* Pods_SportsAdda_SportsAddaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92EC61FAEADDD64A4E2E6283 /* Pods_SportsAdda_SportsAddaUITests.framework */; };
+		B95A6318144DF3FA539B7F2B /* Pods_SportsAdda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BB348B518AD36A68E16406 /* Pods_SportsAdda.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		070589578D0144A42F3BAF0C /* Pods-SportsAdda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsAdda.release.xcconfig"; path = "Target Support Files/Pods-SportsAdda/Pods-SportsAdda.release.xcconfig"; sourceTree = "<group>"; };
+		138DCB26627D75079669621F /* Pods-SportsAdda-SportsAddaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsAdda-SportsAddaUITests.release.xcconfig"; path = "Target Support Files/Pods-SportsAdda-SportsAddaUITests/Pods-SportsAdda-SportsAddaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1A723D97241634480020EBC0 /* SportsAdda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsAdda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A723D9A241634480020EBC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A723D9C241634480020EBC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1A723D9E241634480020EBC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1A723DA1241634480020EBC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A723DA4241634480020EBC0 /* SportsAdda.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportsAdda.xcdatamodel; sourceTree = "<group>"; };
 		1A723DA62416344E0020EBC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +58,17 @@
 		1A723DBB2416344E0020EBC0 /* SportsAddaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsAddaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A723DBF2416344E0020EBC0 /* SportsAddaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsAddaUITests.swift; sourceTree = "<group>"; };
 		1A723DC12416344E0020EBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A723DD0241636080020EBC0 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		1A723DD224163C230020EBC0 /* ToStoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToStoreData.swift; sourceTree = "<group>"; };
+		1A723DD6241647DE0020EBC0 /* ActivityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableViewController.swift; sourceTree = "<group>"; };
+		1A723DD8241648920020EBC0 /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
+		5176BA41C4DE435C290FF2F9 /* Pods-SportsAddaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsAddaTests.debug.xcconfig"; path = "Target Support Files/Pods-SportsAddaTests/Pods-SportsAddaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		64AA84138CB5CB185831DC43 /* Pods-SportsAddaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsAddaTests.release.xcconfig"; path = "Target Support Files/Pods-SportsAddaTests/Pods-SportsAddaTests.release.xcconfig"; sourceTree = "<group>"; };
+		66BB348B518AD36A68E16406 /* Pods_SportsAdda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportsAdda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E787610D234904095F3CF52 /* Pods-SportsAdda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsAdda.debug.xcconfig"; path = "Target Support Files/Pods-SportsAdda/Pods-SportsAdda.debug.xcconfig"; sourceTree = "<group>"; };
+		92EC61FAEADDD64A4E2E6283 /* Pods_SportsAdda_SportsAddaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportsAdda_SportsAddaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B843FE37E0C9A6F8C3A30D53 /* Pods-SportsAdda-SportsAddaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsAdda-SportsAddaUITests.debug.xcconfig"; path = "Target Support Files/Pods-SportsAdda-SportsAddaUITests/Pods-SportsAdda-SportsAddaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C16E93ED6FE0894D6226DA65 /* Pods_SportsAddaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportsAddaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95A6318144DF3FA539B7F2B /* Pods_SportsAdda.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C71C0E9D8BB311D089E1DD /* Pods_SportsAddaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7389332BEF5BAC1BE2ADC585 /* Pods_SportsAdda_SportsAddaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +106,8 @@
 				1A723DB32416344E0020EBC0 /* SportsAddaTests */,
 				1A723DBE2416344E0020EBC0 /* SportsAddaUITests */,
 				1A723D98241634480020EBC0 /* Products */,
+				5E761F482277F06F10D451C2 /* Pods */,
+				C49A68B19F382372A1CF86F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,9 +124,11 @@
 		1A723D99241634480020EBC0 /* SportsAdda */ = {
 			isa = PBXGroup;
 			children = (
+				1A723DCF241635800020EBC0 /* Model */,
+				1A723DCE2416357B0020EBC0 /* View */,
+				1A723DCD241635750020EBC0 /* Controller */,
 				1A723D9A241634480020EBC0 /* AppDelegate.swift */,
 				1A723D9C241634480020EBC0 /* SceneDelegate.swift */,
-				1A723D9E241634480020EBC0 /* ViewController.swift */,
 				1A723DA0241634480020EBC0 /* Main.storyboard */,
 				1A723DA62416344E0020EBC0 /* Assets.xcassets */,
 				1A723DA82416344E0020EBC0 /* LaunchScreen.storyboard */,
@@ -131,6 +156,54 @@
 			path = SportsAddaUITests;
 			sourceTree = "<group>";
 		};
+		1A723DCD241635750020EBC0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A723DD0241636080020EBC0 /* LogInViewController.swift */,
+				1A723DD6241647DE0020EBC0 /* ActivityTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1A723DCE2416357B0020EBC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A723DD8241648920020EBC0 /* ActivityTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A723DCF241635800020EBC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A723DD224163C230020EBC0 /* ToStoreData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E761F482277F06F10D451C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E787610D234904095F3CF52 /* Pods-SportsAdda.debug.xcconfig */,
+				070589578D0144A42F3BAF0C /* Pods-SportsAdda.release.xcconfig */,
+				B843FE37E0C9A6F8C3A30D53 /* Pods-SportsAdda-SportsAddaUITests.debug.xcconfig */,
+				138DCB26627D75079669621F /* Pods-SportsAdda-SportsAddaUITests.release.xcconfig */,
+				5176BA41C4DE435C290FF2F9 /* Pods-SportsAddaTests.debug.xcconfig */,
+				64AA84138CB5CB185831DC43 /* Pods-SportsAddaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C49A68B19F382372A1CF86F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66BB348B518AD36A68E16406 /* Pods_SportsAdda.framework */,
+				92EC61FAEADDD64A4E2E6283 /* Pods_SportsAdda_SportsAddaUITests.framework */,
+				C16E93ED6FE0894D6226DA65 /* Pods_SportsAddaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A723DC42416344E0020EBC0 /* Build configuration list for PBXNativeTarget "SportsAdda" */;
 			buildPhases = (
+				DF875D1025790BA841D64401 /* [CP] Check Pods Manifest.lock */,
 				1A723D93241634480020EBC0 /* Sources */,
 				1A723D94241634480020EBC0 /* Frameworks */,
 				1A723D95241634480020EBC0 /* Resources */,
+				F9EDB4AFC42AE7ED344CEBA2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A723DC72416344E0020EBC0 /* Build configuration list for PBXNativeTarget "SportsAddaTests" */;
 			buildPhases = (
+				11ACCBD81D83795E20516BF6 /* [CP] Check Pods Manifest.lock */,
 				1A723DAC2416344E0020EBC0 /* Sources */,
 				1A723DAD2416344E0020EBC0 /* Frameworks */,
 				1A723DAE2416344E0020EBC0 /* Resources */,
@@ -173,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A723DCA2416344E0020EBC0 /* Build configuration list for PBXNativeTarget "SportsAddaUITests" */;
 			buildPhases = (
+				7918F6174E357B38E2FBF334 /* [CP] Check Pods Manifest.lock */,
 				1A723DB72416344E0020EBC0 /* Sources */,
 				1A723DB82416344E0020EBC0 /* Frameworks */,
 				1A723DB92416344E0020EBC0 /* Resources */,
+				4AF73997DA2000C9317188D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,14 +335,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11ACCBD81D83795E20516BF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SportsAddaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AF73997DA2000C9317188D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SportsAdda-SportsAddaUITests/Pods-SportsAdda-SportsAddaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SportsAdda-SportsAddaUITests/Pods-SportsAdda-SportsAddaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SportsAdda-SportsAddaUITests/Pods-SportsAdda-SportsAddaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7918F6174E357B38E2FBF334 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SportsAdda-SportsAddaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF875D1025790BA841D64401 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SportsAdda-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9EDB4AFC42AE7ED344CEBA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SportsAdda/Pods-SportsAdda-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SportsAdda/Pods-SportsAdda-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SportsAdda/Pods-SportsAdda-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A723D93241634480020EBC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1A723DA5241634480020EBC0 /* SportsAdda.xcdatamodeld in Sources */,
-				1A723D9F241634480020EBC0 /* ViewController.swift in Sources */,
 				1A723D9B241634480020EBC0 /* AppDelegate.swift in Sources */,
+				1A723DD7241647DE0020EBC0 /* ActivityTableViewController.swift in Sources */,
+				1A723DD1241636080020EBC0 /* LogInViewController.swift in Sources */,
+				1A723DD9241648920020EBC0 /* ActivityTableViewCell.swift in Sources */,
+				1A723DD324163C230020EBC0 /* ToStoreData.swift in Sources */,
 				1A723D9D241634480020EBC0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +620,7 @@
 		};
 		1A723DC52416344E0020EBC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E787610D234904095F3CF52 /* Pods-SportsAdda.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +639,7 @@
 		};
 		1A723DC62416344E0020EBC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 070589578D0144A42F3BAF0C /* Pods-SportsAdda.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +658,7 @@
 		};
 		1A723DC82416344E0020EBC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5176BA41C4DE435C290FF2F9 /* Pods-SportsAddaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +681,7 @@
 		};
 		1A723DC92416344E0020EBC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64AA84138CB5CB185831DC43 /* Pods-SportsAddaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +704,7 @@
 		};
 		1A723DCB2416344E0020EBC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B843FE37E0C9A6F8C3A30D53 /* Pods-SportsAdda-SportsAddaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +725,7 @@
 		};
 		1A723DCC2416344E0020EBC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 138DCB26627D75079669621F /* Pods-SportsAdda-SportsAddaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
